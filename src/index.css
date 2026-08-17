@@ -3,6 +3,22 @@
 @import '@fontsource/work-sans/500.css';
 @import '@fontsource/work-sans/600.css';
 
+@font-face {
+  font-family: 'Horizon';
+  src: url('/fonts/horizon.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Horizon Outlined';
+  src: url('/fonts/horizon-outlined.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --ink: #131210;
   --ink-soft: #55524a;
@@ -13,7 +29,7 @@
   --accent-soft: #e7ede8;
   --accent-contrast: #faf8f3;
 
-  --font-display: 'Archivo Black', 'Arial Black', sans-serif;
+  --font-display: 'Horizon', 'Archivo Black', 'Arial Black', sans-serif;
   --font-body: 'Work Sans', system-ui, sans-serif;
 
   color-scheme: light;
