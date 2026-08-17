@@ -1,0 +1,64 @@
+@import '@fontsource/archivo-black';
+@import '@fontsource/work-sans/400.css';
+@import '@fontsource/work-sans/500.css';
+@import '@fontsource/work-sans/600.css';
+
+:root {
+  --ink: #131210;
+  --ink-soft: #55524a;
+  --bg: #faf8f3;
+  --bg-alt: #f0ede3;
+  --line: rgba(19, 18, 16, 0.14);
+  --accent: #1f4732;
+  --accent-soft: #e7ede8;
+  --accent-contrast: #faf8f3;
+
+  --font-display: 'Archivo Black', 'Arial Black', sans-serif;
+  --font-body: 'Work Sans', system-ui, sans-serif;
+
+  color-scheme: light;
+  color: var(--ink);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--ink);
+  background: var(--bg);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--accent-contrast);
+}
