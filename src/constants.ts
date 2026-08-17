@@ -1,0 +1,2 @@
+export const BOOKING_URL =
+  'https://book.squareup.com/appointments/50d8excybo6kc1/location/LN2P5RKC4ZJPG/services?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAdGRleATvR7ZwZG9mAmZkaWQWUMpY03_XHJs5e9g2Wjc9-3vq9M7RUmV4dG4DYWVtAjExAHNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp_ANLDFC8AIF2uM0Rr1yY5p-md5FHEbvKvfQpDCjt83rASLZ0RWAONHqVayW_aem_fHxu2L1LKBOwgUG73OW2LQ';

@@ -1,21 +1,26 @@
 import LeafPattern from './LeafPattern';
+import { BOOKING_URL } from '../constants';
 
-// TODO: replace with real contact details and booking link before launch.
+// TODO: replace with real contact details before launch.
 const CONTACT = {
   email: 'hello@chicagoplantaddicts.com',
   phone: '(312) 555-0100',
   instagram: '@chicagoplantaddicts',
-  bookingUrl: '#',
 };
 
 export default function Contact() {
   return (
     <section className="contact" id="contact">
-      <LeafPattern id="contact-leaves" opacity={0.1} />
+      <LeafPattern variant="light" opacity={0.14} />
       <div className="contact__content">
         <h2 className="section-title section-title--light">Ready to flourish?</h2>
         <p className="contact__copy">Book a free consultation and let's bring your space to life.</p>
-        <a className="button button--accent" href={CONTACT.bookingUrl}>
+        <a
+          className="button button--accent"
+          href={BOOKING_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Book a Free Consultation
         </a>
         <ul className="contact__details">
